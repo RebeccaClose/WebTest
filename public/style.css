@@ -1,0 +1,45 @@
+
+html, body 
+
+
+body {
+  font-family : "Athelas", "Helvetica", sans-serif;
+  margin : 20px;
+}
+
+li { 
+  list-style : none;
+  display : inline;
+}
+
+ul li {
+  display : inline;
+  margin : 20px;
+}
+
+ul li:hover {
+  cursor : pointer;
+}
+
+
+a {
+  text-decoration : none;
+  color : navy;
+}
+@font-face {
+    font-family : "Athelas", "Helvetica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family : "Athelas", "Helvetica", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    padding: 2;
+    margin: 2;
+    box-sizing: border-box;
+}
